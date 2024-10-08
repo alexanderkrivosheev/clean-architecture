@@ -1,0 +1,8 @@
+
+/Application/bin
+/.vs
+/Application/obj
+/Domain/obj
+/Infrastructure/obj
+/Domain/bin
+/Infrastructure/bin
