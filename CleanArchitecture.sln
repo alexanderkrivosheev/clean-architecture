@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{1E2FC03A-2CAB-4096-9865-CFD9AB221237}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{1E2FC03A-2CAB-4096-9865-CFD9AB221237}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A36D868-BCC7-4B02-B132-5178B4AEF452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C3F10217-B86A-4B03-AD6B-0DC53CFF3AD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{C3F10217-B86A-4B03-AD6B-0DC53CFF3AD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{236A2E67-BF9C-4282-BA22-2174149DC75A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{236A2E67-BF9C-4282-BA22-2174149DC75A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{CA15C6FA-53DB-4A4D-94E5-822B9155B1D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{236A2E67-BF9C-4282-BA22-2174149DC75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236A2E67-BF9C-4282-BA22-2174149DC75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{236A2E67-BF9C-4282-BA22-2174149DC75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA15C6FA-53DB-4A4D-94E5-822B9155B1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA15C6FA-53DB-4A4D-94E5-822B9155B1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA15C6FA-53DB-4A4D-94E5-822B9155B1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA15C6FA-53DB-4A4D-94E5-822B9155B1D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{1E2FC03A-2CAB-4096-9865-CFD9AB221237} = {0A36D868-BCC7-4B02-B132-5178B4AEF452}
 		{C3F10217-B86A-4B03-AD6B-0DC53CFF3AD8} = {0A36D868-BCC7-4B02-B132-5178B4AEF452}
 		{236A2E67-BF9C-4282-BA22-2174149DC75A} = {0A36D868-BCC7-4B02-B132-5178B4AEF452}
+		{CA15C6FA-53DB-4A4D-94E5-822B9155B1D1} = {0A36D868-BCC7-4B02-B132-5178B4AEF452}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6323EE29-B0F8-4F29-8756-892E9BF2C0B0}
